@@ -132,6 +132,35 @@ body{
     padding: 50px 50px 0;
 }
 
+/* delivery_flower_support part */
+.delivery_flower_support{
+    display: flex;
+    margin: 100px 170px ;
+    background-color: #2727270D;
+    padding: 100px  ;
+    text-align: center;
+}
+.delivery_flower_support h3{
+    font-family: Lato;
+    color: #272727CC;
+    font-size: 16px;
+    
+}
+
+.delivery_flower_support img{
+    width: 70px;
+}
+
+.delivery_flower_support .delivery{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.delivery_flower_support .flower{
+    margin-right: 50px;
+
+}
+
 
 /* hot_deal part */
 
