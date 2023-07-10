@@ -19,16 +19,26 @@ body{
     font-weight: 800;
 }
 
+.section_p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: Lato;
+}
+
 .button_primary{
     background-color: #E55473;
     border: 0;
     border-radius: 5px;
-    padding: 12px 20px;
+    padding: 10px 18px;
     color: white;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
+    font-size: 14px;
+    font-family: Lato;
 }
+
 /* header part */
 
 .banner {
@@ -36,8 +46,7 @@ body{
     background-color: #E554731A;
     padding: 50px 200px 0 ;
     font-family: Lato;
-
-
+    align-items: center;
 }
 
 .banner_left {
@@ -50,15 +59,6 @@ body{
     color: #272727;
     font-size: 35px;
     font-weight: 800;
-    margin-bottom: 20px;
-}
-
-.banner_left p {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
     margin-bottom: 20px;
 }
 
@@ -85,18 +85,10 @@ body{
     padding-bottom: 10px;
 }
 
-.bonus_part_text p {
-    color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 15px;
-    font-weight: 400;
-    margin-bottom: 50px;
-}
-
 .bonus_part_images {
     display:flex;
-    text-align: center;
-    
+
+    align-items: center;
 }
 
 .bonus_part_images h3{
@@ -141,7 +133,7 @@ body{
 }
 
 
-/* hot_deal area */
+/* hot_deal part */
 
 .hot_deal_part{
     background: #E554730D;
@@ -167,4 +159,23 @@ body{
 
 .hot_deal_right img{
     width: 220px;
+}
+
+/* instagram part */
+.instagram_part{
+    margin: 100px 170px ;
+    justify-content: center;
+}
+
+.instagram_part_text{
+    text-align: center;
+}
+
+.instagram_part_images{
+
+}
+
+.instagram_part_images img{
+    width: 230px;
+    padding: 7px;
 }
