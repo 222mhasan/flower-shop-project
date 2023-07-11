@@ -37,6 +37,7 @@ body{
     color: white;
     font-size: 14px;
     font-family: Lato;
+    cursor: pointer;
 }
 
 .span_style{
@@ -193,7 +194,6 @@ body{
 /* instagram part */
 .instagram_part{
     margin: 100px 170px ;
-    justify-content: ;
 }
 
 .instagram_part_text{
@@ -208,6 +208,64 @@ body{
     width: 239px;
     padding: 5px;
 }
+
+/* blog_part */
+.blog_part{
+    margin: 100px 170px;
+    font-family: lato;
+
+}
+
+.blog_part h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog_part_content{
+    display: flex;
+}
+
+.blog_part_content p{
+    margin-top: 10px;
+}
+
+.blog_part_content h3{
+    margin-top: 10px;
+}
+
+.blog_part_content button{
+    margin-top: 15px;
+    background-color: #E55473;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 18px;
+    color: white;
+    font-size: 14px;
+    font-family: Lato;
+    cursor: pointer;
+}
+
+.blog_part img{
+    width: 310px;
+    border-radius: 3px;
+}
+
+
+.blog_part_1 {
+    width: 33.33%;
+    margin-right: 30px;
+}
+
+.blog_part_2{
+    margin-right: 30px;
+    width: 33.33%;
+}
+
+.blog_part_3{
+    width: 33.33%;
+}
+
+
 
 /* latest_deals_part */
 .latest_deals_part{
