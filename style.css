@@ -211,8 +211,9 @@ body{
 
 /* blog_part */
 .blog_part{
-    margin: 100px 170px;
+    padding: 100px 170px;
     font-family: lato;
+    background-color: #E554731A;
 
 }
 
@@ -228,7 +229,7 @@ body{
 
 .blog_part_content p{
     margin-top: 10px;
-    color: #272727;
+    color: #27272799;
 }
 
 .blog_part_content h3{
@@ -239,11 +240,11 @@ body{
     margin-top: 15px;
     border: 0;
     border-radius: 5px;
-    padding: 10px 18px;
     color: rgb(0, 0, 0);
     font-size: 14px;
     font-family: Lato;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .blog_part img{
